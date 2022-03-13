@@ -1,16 +1,11 @@
-
-
 import React from 'react';
-import WelcomeScreen from "./src/screens/WelcomeScreen"
-
+import Navigation from './src/screens/Navigation';
 
 
 const App = () => {
   return (
-      <WelcomeScreen></WelcomeScreen>
+    <Navigation></Navigation>
   );
 };
-
-
 
 export default App;
